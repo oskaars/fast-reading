@@ -1,0 +1,28 @@
+.word-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', monospace; 
+  font-size: 3rem;
+  font-weight: bold;
+  height: 100px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.left-part {
+  flex: 1;
+  text-align: right; 
+}
+
+.center-part {
+  color: #ff4757;
+  margin: 0;
+  padding: 0;
+}
+
+.right-part {
+  flex: 1;
+  text-align: left;
+}

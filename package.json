@@ -1,0 +1,22 @@
+{
+  "name": "fast-reading-project",
+  "version": "1.0.0",
+  "description": "Fast reading project",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev:frontend",
+    "dev:frontend": "cd frontend && vite",
+    "build:frontend": "cd frontend && vite build",
+    "dev:backend": "cd backend && node server.js",
+    "start:backend": "cd backend && node server.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^6.4.2",
+    "@vitejs/plugin-react": "^4.0.0"
+  }
+}
