@@ -14,7 +14,6 @@ function WordDisplay({ word }) {
         return 0.8;
     };
 
-    // Algorytm wyliczający indeks Optimal Recognition Point (ORP)
     const getORPIndex = (word) => {
         const chars = Array.from(word);
         const n = chars.length;
